@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+/* Application-wide Styles */
+h1 {
+  color: #598;
+  font-family: Montserrat, sans-serif;
+  font-size: 250%;
+}
+
+body {
+  margin: 2em;
+}
+
+body, input[text], button {
+  color: #125;
+  font-family: Montserrat;
+}
+/* everywhere else */
+* {
+  font-family: Montserrat Alternates, sans-serif;
+}
