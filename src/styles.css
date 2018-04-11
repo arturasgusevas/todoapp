@@ -3,13 +3,14 @@
 
 /* Application-wide Styles */
 h1 {
-  color: #598;
+  color: #fff;
   font-family: Montserrat, sans-serif;
   font-size: 250%;
 }
 
 body {
   margin: 2em;
+  background-color: #00B9FF
 }
 
 body, input[text], button {

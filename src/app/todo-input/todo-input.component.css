@@ -1,0 +1,42 @@
+.up{
+  width: 100%;
+}
+
+.todo{
+  margin-top: 7%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+}
+
+.todo input{
+  padding: 0 30px;
+  width: 35%;
+  height: 80px;
+  border-radius: 50px;
+  border: 0;
+  font-size: 20px;
+  background-color: #03A7E4;
+  color: #ffffff;
+}
+
+.todo input::placeholder{
+  color: #9FDAFF;
+}
+
+.plus{
+  width: 80px;
+  height: 80px;
+  border-radius: 60px;
+  background-color: #00B9FF;
+  color: #ffffff;
+  font-size: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: -1.6em;
+}

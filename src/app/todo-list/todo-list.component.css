@@ -1,0 +1,26 @@
+.down{
+  margin-top: -80px;
+  display: flex;
+  justify-content: center;
+}
+
+.list{
+  padding: 80px 2% 20px 2%;
+  border-radius: 5px;
+  width: 38%;
+  height: 500px;
+  background-color: #9FDAFF;
+  z-index: -1;
+}
+
+li{
+  font-size: 1.1rem;
+  list-style-type: none;
+  width: 98%;
+  background-color: #00B9FF;
+  padding: 20px 10px;
+  margin-bottom: 20px;
+  filter: drop-shadow(10px 5px 10px 10px #000);
+  color: white;
+  border-radius: 5px;
+}
